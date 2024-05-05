@@ -1,0 +1,28 @@
+.testimonials {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 30px;
+    width: 100%;
+}
+.testimonial {
+    width: 25%;
+    margin: 0px 15px 30px 15px;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+.testimonial img {
+    height: 200px;
+    width: 100%;
+    object-fit: cover;
+}
+@media only screen and (max-width: 600px){
+    .testimonials{
+        flex-direction: column;
+        align-items: center;
+    }
+    .testimonial{
+        width: 100%;
+    }
+}
